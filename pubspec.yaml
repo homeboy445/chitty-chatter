@@ -1,0 +1,50 @@
+name: chitty_chatter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+  animated_text_kit: ^4.2.1
+  firebase_core: ^1.1.1
+  firebase_auth: ^1.1.4
+  cloud_firestore: ^2.1.0
+  flutter_spinkit: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: True Lies
+      fonts:
+        - asset: fonts/True Lies.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Quicksand
+      fonts:
+        - asset: fonts/Quicksand-VariableFont_wght.ttf
